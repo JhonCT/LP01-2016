@@ -65,7 +65,6 @@ public class Vista extends javax.swing.JFrame {
 
         jcMousePanel1.setBackground(java.awt.Color.black);
         jcMousePanel1.setForeground(new java.awt.Color(255, 255, 255));
-        jcMousePanel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jhon Deyner\\Desktop\\images.jpg")); // NOI18N
         jcMousePanel1.setVisibleLogo(false);
 
         btn7.setBackground(new java.awt.Color(255, 255, 255));
@@ -380,7 +379,6 @@ public class Vista extends javax.swing.JFrame {
                                 .addGroup(jcMousePanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(btnmm, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(btndivx, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addGroup(jcMousePanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                 .addComponent(btndiv, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(btnprc, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
