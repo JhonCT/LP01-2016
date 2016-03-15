@@ -44,6 +44,9 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/calculadora/5501edf1c651bea1a08623a8d2999087.jpg"/>
+        </Property>
         <Property name="visibleLogo" type="boolean" value="false"/>
       </Properties>
 
@@ -64,42 +67,54 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="btn8" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
-                              <Group type="102" alignment="0" attributes="0">
+                              <Group type="102" attributes="0">
                                   <Component id="btnce" min="-2" pref="51" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="btndivx" min="-2" pref="51" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btnmm" min="-2" pref="51" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="btn5" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
-                                      <Component id="btn0" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
-                                      <Component id="btn2" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="btnig" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
-                                      <Component id="btnb9" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
-                                      <Component id="btn3" min="-2" pref="51" max="-2" attributes="0"/>
-                                      <Component id="btn6" min="-2" pref="51" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="btnmas" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="btndiv" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="btnx" max="32767" attributes="0"/>
-                                      <Component id="btnmen" max="32767" attributes="0"/>
-                                      <Component id="btnmm" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="btn5" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
+                                              <Component id="btn0" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
+                                              <Component id="btn2" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="btnig" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
+                                              <Component id="btn3" min="-2" pref="51" max="-2" attributes="0"/>
+                                              <Component id="btn6" min="-2" pref="51" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="btn8" min="-2" pref="51" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="btnb9" min="-2" pref="51" max="-2" attributes="0"/>
+                                      </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                      <Component id="btnp1" max="32767" attributes="0"/>
-                                      <Component id="btnp2" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="btnprc" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="btnra" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="btnoff" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="btnmas" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="btnx" pref="51" max="32767" attributes="0"/>
+                                          <Component id="btnmen" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Component id="btndiv" min="-2" pref="51" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="btnp1" max="32767" attributes="0"/>
+                                  <Component id="btnp2" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="btnprc" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="btnra" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="btnoff" alignment="1" min="-2" pref="51" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -111,75 +126,66 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="txtpant" pref="44" max="32767" attributes="0"/>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="txtpant" pref="43" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
-                          <Component id="btnce" min="-2" pref="31" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="btnprc" min="-2" pref="31" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="btn8" min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="btnra" min="-2" pref="31" max="-2" attributes="0"/>
+                          <EmptySpace pref="7" max="32767" attributes="0"/>
+                          <Component id="btnp2" min="-2" pref="31" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="btn5" min="-2" pref="31" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="btn2" min="-2" pref="31" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" max="-2" attributes="0"/>
-                          <Component id="btn0" min="-2" pref="31" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="103" alignment="1" groupAlignment="1" max="-2" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                              <Component id="btnb9" min="-2" pref="31" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="btn6" min="-2" pref="31" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="btn3" min="-2" pref="31" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" max="-2" attributes="0"/>
-                              <Component id="btnig" min="-2" pref="31" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Component id="btnoff" min="-2" pref="30" max="-2" attributes="0"/>
-                                      <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="btnmm" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
-                                      <Component id="btndivx" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="btndiv" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
-                                  <Component id="btnprc" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="btnig" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="btnmas" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="btnx" min="-2" pref="31" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="btnmen" min="-2" pref="31" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" max="-2" attributes="0"/>
-                                      <Component id="btnmas" min="-2" pref="31" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="btnra" min="-2" pref="31" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
-                                      <Component id="btnp2" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" max="-2" attributes="0"/>
-                                      <Component id="btnp1" min="-2" pref="32" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
+                              <Component id="btnp1" min="-2" pref="31" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="btnc" min="-2" pref="31" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="btn7" min="-2" pref="31" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="btn4" min="-2" pref="31" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="btn1" min="-2" pref="31" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" max="-2" attributes="0"/>
-                          <Component id="btnpunt" min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="btnce" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="btndivx" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="btnmm" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="btnoff" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Component id="btnc" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="btn8" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="btnb9" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="btndiv" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="btn5" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="btn6" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="btnx" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="btn2" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="btn3" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="btnmen" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Component id="btn0" min="-2" pref="31" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="btn7" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btn4" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btn1" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnpunt" min="-2" pref="31" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
